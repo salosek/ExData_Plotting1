@@ -29,7 +29,7 @@ head(x$DateTime)
 
 par(mfrow = c(2, 2))
 
-plot(x$DateTime, x$GAP, pch = "", lty = "solid", col = "black", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(x$DateTime, x$GAP, pch = "", lty = "solid", col = "black", ylab = "Global Active Power", xlab = "")
 lines(x$DateTime, x$GAP)
 
 plot(x$DateTime, x$Volt, pch = "", lty = "solid", col = "black", ylab = "Voltage", xlab = "datetime")
@@ -49,7 +49,7 @@ png("plot4.png", width = 480, height = 480)
 
 par(mfrow = c(2, 2))
 
-plot(x$DateTime, x$GAP, pch = "", lty = "solid", col = "black", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(x$DateTime, x$GAP, pch = "", lty = "solid", col = "black", ylab = "Global Active Power", xlab = "")
 lines(x$DateTime, x$GAP)
 
 plot(x$DateTime, x$Volt, pch = "", lty = "solid", col = "black", ylab = "Voltage", xlab = "datetime")
